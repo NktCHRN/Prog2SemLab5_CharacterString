@@ -14,7 +14,7 @@ namespace Lab5
             ProgramInfo();
             Console.WriteLine("\nEnter the string: ");
             char[] charArray = EnterCharArray();                            // создание экземпляра производного класса
-            CharacterString s = new StringsLib.CharacterString(in charArray);
+            CharacterString s = new CharacterString(in charArray);
             Console.WriteLine("\nYour string: ");
             Console.WriteLine(s.GetCharArray());                            // выводим строку
             Console.WriteLine("Your string length is {0}.", s.GetLength()); // вызов метода - получения длины строки
