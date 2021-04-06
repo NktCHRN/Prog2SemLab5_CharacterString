@@ -8,7 +8,7 @@ namespace StringsLib
 {
     public class CharacterString : MyString
     {
-        public CharacterString(in char[] value) : base(in value) {  }       // конструктор с параметром, вызовающий конструктор с параметром базового класса
+        public CharacterString(in char[] value) : base(in value) {  }       // конструктор с параметром, вызывающий конструктор с параметром базового класса
         public void Sort()                                          // метод сортировки строки по убыванию при помощи алгоритма Insertion Sort (с конца - в начало, т.к. по убыванию)
         {
             char key;

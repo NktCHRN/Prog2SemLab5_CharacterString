@@ -1,6 +1,6 @@
 #include "CharacterString.h"
 
-CharacterString::CharacterString(const char* const value) : MyString(value) {	}
+CharacterString::CharacterString(const char* const value) : MyString(value) {	}       // конструктор с параметром, вызывающий конструктор с параметром базового класса
 
 void CharacterString::Sort()                                          // метод сортировки строки по убыванию при помощи алгоритма Insertion Sort (с конца - в начало, т.к. по убыванию)
 {
