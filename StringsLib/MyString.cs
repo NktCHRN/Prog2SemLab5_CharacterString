@@ -15,7 +15,9 @@ namespace StringsLib
             if (value != null)
             {
                 _length = value.Length;
-                _stringValue = value;
+                _stringValue = new char[_length];
+                for (int i = 0; i < _length; i++)
+                    _stringValue[i] = value[i];
             }
             else
             {
